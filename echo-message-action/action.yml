@@ -1,0 +1,7 @@
+name: 'Print Message Action'
+description: 'Prints a message'
+runs:
+  using: 'composite'
+  steps:
+    - run: echo "I am invoked from action!"
+      shell: bash
